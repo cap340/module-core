@@ -1,0 +1,21 @@
+{
+    "name": "cap/module-core",
+    "version": "104.0.2",
+    "description": "Magento 2 commun Module for system tabs",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.3.0||~7.4.0",
+        "magento/framework": "103.0.*"
+    },
+    "license": [
+        "OSL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Cap\\Core\\": ""
+        }
+    }
+}
